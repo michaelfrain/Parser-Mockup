@@ -19,6 +19,9 @@
 		06B8BDA6188304CA008D917E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8E188304CA008D917E /* UIKit.framework */; };
 		06B8BDAE188304CA008D917E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B8BDAC188304CA008D917E /* InfoPlist.strings */; };
 		06B8BDB0188304CA008D917E /* SportsDB_MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BDAF188304CA008D917E /* SportsDB_MockTests.m */; };
+		06B8BDC4188305B5008D917E /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BDC3188305B5008D917E /* CHCSVParser.m */; };
+		06B8BDC71883067C008D917E /* SDBParsedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BDC61883067C008D917E /* SDBParsedObjects.m */; };
+		06B8BDC9188306D9008D917E /* nfl_players a-z.csv in Resources */ = {isa = PBXBuildFile; fileRef = 06B8BDC8188306D9008D917E /* nfl_players a-z.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		06B8BDAB188304CA008D917E /* SportsDB MockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsDB MockTests-Info.plist"; sourceTree = "<group>"; };
 		06B8BDAD188304CA008D917E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06B8BDAF188304CA008D917E /* SportsDB_MockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsDB_MockTests.m; sourceTree = "<group>"; };
+		06B8BDC2188305B5008D917E /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		06B8BDC3188305B5008D917E /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		06B8BDC51883067C008D917E /* SDBParsedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBParsedObjects.h; sourceTree = "<group>"; };
+		06B8BDC61883067C008D917E /* SDBParsedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBParsedObjects.m; sourceTree = "<group>"; };
+		06B8BDC8188306D9008D917E /* nfl_players a-z.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "nfl_players a-z.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,13 @@
 		06B8BD90188304CA008D917E /* SportsDB Mock */ = {
 			isa = PBXGroup;
 			children = (
+				06B8BDC2188305B5008D917E /* CHCSVParser.h */,
+				06B8BDC3188305B5008D917E /* CHCSVParser.m */,
 				06B8BD99188304CA008D917E /* SDBAppDelegate.h */,
 				06B8BD9A188304CA008D917E /* SDBAppDelegate.m */,
+				06B8BDC51883067C008D917E /* SDBParsedObjects.h */,
+				06B8BDC61883067C008D917E /* SDBParsedObjects.m */,
+				06B8BDC8188306D9008D917E /* nfl_players a-z.csv */,
 				06B8BD9C188304CA008D917E /* Images.xcassets */,
 				06B8BD91188304CA008D917E /* Supporting Files */,
 			);
@@ -222,6 +235,7 @@
 			files = (
 				06B8BD95188304CA008D917E /* InfoPlist.strings in Resources */,
 				06B8BD9D188304CA008D917E /* Images.xcassets in Resources */,
+				06B8BDC9188306D9008D917E /* nfl_players a-z.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 			files = (
 				06B8BD9B188304CA008D917E /* SDBAppDelegate.m in Sources */,
 				06B8BD97188304CA008D917E /* main.m in Sources */,
+				06B8BDC4188305B5008D917E /* CHCSVParser.m in Sources */,
+				06B8BDC71883067C008D917E /* SDBParsedObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

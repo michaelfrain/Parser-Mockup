@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "CHCSVParser.h"
+#import "SDBParsedObjects.h"
 
 @interface SportsDB_MockTests : XCTestCase
 
@@ -14,21 +16,21 @@
 
 @implementation SportsDB_MockTests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)testParsedCsvExample {
+    SDBParsedObjects *parsedObject = [[SDBParsedObjects alloc] init];
+    NSArray *parsedArray = [[NSArray alloc] init];
+    
+    parsedArray = [parsedObject csvParseObjects];
+    NSArray *mockObject = [[NSArray alloc] init];
+    mockObject = [parsedArray objectAtIndex:25];
+    XCTAssertEqualObjects([mockObject objectAtIndex:0], @"Frank Abruzzino");
+    XCTAssertEqualObjects([mockObject objectAtIndex:1], @"Colgate");
+    XCTAssertEqualObjects([mockObject objectAtIndex:2], @" BB-LB-C-G-E-WB-");
+    
+    mockObject = [parsedArray objectAtIndex:3179];
+    XCTAssertEqualObjects([mockObject objectAtIndex:0], @"John Carney");
+    XCTAssertEqualObjects([mockObject objectAtIndex:1], @"Notre Dame");
+    XCTAssertEqualObjects([mockObject objectAtIndex:2], @" K");
 }
 
 @end
