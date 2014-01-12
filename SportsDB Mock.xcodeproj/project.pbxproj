@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B8BD8B188304CA008D917E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8A188304CA008D917E /* Foundation.framework */; };
+		06B8BD8D188304CA008D917E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8C188304CA008D917E /* CoreGraphics.framework */; };
+		06B8BD8F188304CA008D917E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8E188304CA008D917E /* UIKit.framework */; };
+		06B8BD95188304CA008D917E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B8BD93188304CA008D917E /* InfoPlist.strings */; };
+		06B8BD97188304CA008D917E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BD96188304CA008D917E /* main.m */; };
+		06B8BD9B188304CA008D917E /* SDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BD9A188304CA008D917E /* SDBAppDelegate.m */; };
+		06B8BD9D188304CA008D917E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B8BD9C188304CA008D917E /* Images.xcassets */; };
+		06B8BDA4188304CA008D917E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BDA3188304CA008D917E /* XCTest.framework */; };
+		06B8BDA5188304CA008D917E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8A188304CA008D917E /* Foundation.framework */; };
+		06B8BDA6188304CA008D917E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8E188304CA008D917E /* UIKit.framework */; };
+		06B8BDAE188304CA008D917E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B8BDAC188304CA008D917E /* InfoPlist.strings */; };
+		06B8BDB0188304CA008D917E /* SportsDB_MockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8BDAF188304CA008D917E /* SportsDB_MockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06B8BDA7188304CA008D917E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06B8BD7F188304CA008D917E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B8BD86188304CA008D917E;
+			remoteInfo = "SportsDB Mock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B8BD87188304CA008D917E /* SportsDB Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SportsDB Mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B8BD8A188304CA008D917E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06B8BD8C188304CA008D917E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06B8BD8E188304CA008D917E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06B8BD92188304CA008D917E /* SportsDB Mock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsDB Mock-Info.plist"; sourceTree = "<group>"; };
+		06B8BD94188304CA008D917E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06B8BD96188304CA008D917E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06B8BD98188304CA008D917E /* SportsDB Mock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportsDB Mock-Prefix.pch"; sourceTree = "<group>"; };
+		06B8BD99188304CA008D917E /* SDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDBAppDelegate.h; sourceTree = "<group>"; };
+		06B8BD9A188304CA008D917E /* SDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBAppDelegate.m; sourceTree = "<group>"; };
+		06B8BD9C188304CA008D917E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06B8BDA2188304CA008D917E /* SportsDB MockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportsDB MockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B8BDA3188304CA008D917E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06B8BDAB188304CA008D917E /* SportsDB MockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsDB MockTests-Info.plist"; sourceTree = "<group>"; };
+		06B8BDAD188304CA008D917E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06B8BDAF188304CA008D917E /* SportsDB_MockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsDB_MockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06B8BD84188304CA008D917E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BD8D188304CA008D917E /* CoreGraphics.framework in Frameworks */,
+				06B8BD8F188304CA008D917E /* UIKit.framework in Frameworks */,
+				06B8BD8B188304CA008D917E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8BD9F188304CA008D917E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BDA4188304CA008D917E /* XCTest.framework in Frameworks */,
+				06B8BDA6188304CA008D917E /* UIKit.framework in Frameworks */,
+				06B8BDA5188304CA008D917E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06B8BD7E188304CA008D917E = {
+			isa = PBXGroup;
+			children = (
+				06B8BD90188304CA008D917E /* SportsDB Mock */,
+				06B8BDA9188304CA008D917E /* SportsDB MockTests */,
+				06B8BD89188304CA008D917E /* Frameworks */,
+				06B8BD88188304CA008D917E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06B8BD88188304CA008D917E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BD87188304CA008D917E /* SportsDB Mock.app */,
+				06B8BDA2188304CA008D917E /* SportsDB MockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06B8BD89188304CA008D917E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BD8A188304CA008D917E /* Foundation.framework */,
+				06B8BD8C188304CA008D917E /* CoreGraphics.framework */,
+				06B8BD8E188304CA008D917E /* UIKit.framework */,
+				06B8BDA3188304CA008D917E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06B8BD90188304CA008D917E /* SportsDB Mock */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BD99188304CA008D917E /* SDBAppDelegate.h */,
+				06B8BD9A188304CA008D917E /* SDBAppDelegate.m */,
+				06B8BD9C188304CA008D917E /* Images.xcassets */,
+				06B8BD91188304CA008D917E /* Supporting Files */,
+			);
+			path = "SportsDB Mock";
+			sourceTree = "<group>";
+		};
+		06B8BD91188304CA008D917E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BD92188304CA008D917E /* SportsDB Mock-Info.plist */,
+				06B8BD93188304CA008D917E /* InfoPlist.strings */,
+				06B8BD96188304CA008D917E /* main.m */,
+				06B8BD98188304CA008D917E /* SportsDB Mock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06B8BDA9188304CA008D917E /* SportsDB MockTests */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BDAF188304CA008D917E /* SportsDB_MockTests.m */,
+				06B8BDAA188304CA008D917E /* Supporting Files */,
+			);
+			path = "SportsDB MockTests";
+			sourceTree = "<group>";
+		};
+		06B8BDAA188304CA008D917E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06B8BDAB188304CA008D917E /* SportsDB MockTests-Info.plist */,
+				06B8BDAC188304CA008D917E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B8BD86188304CA008D917E /* SportsDB Mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B8BDB3188304CB008D917E /* Build configuration list for PBXNativeTarget "SportsDB Mock" */;
+			buildPhases = (
+				06B8BD83188304CA008D917E /* Sources */,
+				06B8BD84188304CA008D917E /* Frameworks */,
+				06B8BD85188304CA008D917E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SportsDB Mock";
+			productName = "SportsDB Mock";
+			productReference = 06B8BD87188304CA008D917E /* SportsDB Mock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06B8BDA1188304CA008D917E /* SportsDB MockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B8BDB6188304CB008D917E /* Build configuration list for PBXNativeTarget "SportsDB MockTests" */;
+			buildPhases = (
+				06B8BD9E188304CA008D917E /* Sources */,
+				06B8BD9F188304CA008D917E /* Frameworks */,
+				06B8BDA0188304CA008D917E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B8BDA8188304CA008D917E /* PBXTargetDependency */,
+			);
+			name = "SportsDB MockTests";
+			productName = "SportsDB MockTests";
+			productReference = 06B8BDA2188304CA008D917E /* SportsDB MockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06B8BD7F188304CA008D917E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SDB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SportsDB;
+				TargetAttributes = {
+					06B8BDA1188304CA008D917E = {
+						TestTargetID = 06B8BD86188304CA008D917E;
+					};
+				};
+			};
+			buildConfigurationList = 06B8BD82188304CA008D917E /* Build configuration list for PBXProject "SportsDB Mock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06B8BD7E188304CA008D917E;
+			productRefGroup = 06B8BD88188304CA008D917E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B8BD86188304CA008D917E /* SportsDB Mock */,
+				06B8BDA1188304CA008D917E /* SportsDB MockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B8BD85188304CA008D917E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BD95188304CA008D917E /* InfoPlist.strings in Resources */,
+				06B8BD9D188304CA008D917E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8BDA0188304CA008D917E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BDAE188304CA008D917E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B8BD83188304CA008D917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BD9B188304CA008D917E /* SDBAppDelegate.m in Sources */,
+				06B8BD97188304CA008D917E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06B8BD9E188304CA008D917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8BDB0188304CA008D917E /* SportsDB_MockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B8BDA8188304CA008D917E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B8BD86188304CA008D917E /* SportsDB Mock */;
+			targetProxy = 06B8BDA7188304CA008D917E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06B8BD93188304CA008D917E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B8BD94188304CA008D917E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06B8BDAC188304CA008D917E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06B8BDAD188304CA008D917E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06B8BDB1188304CA008D917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06B8BDB2188304CA008D917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B8BDB4188304CB008D917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsDB Mock/SportsDB Mock-Prefix.pch";
+				INFOPLIST_FILE = "SportsDB Mock/SportsDB Mock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06B8BDB5188304CB008D917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsDB Mock/SportsDB Mock-Prefix.pch";
+				INFOPLIST_FILE = "SportsDB Mock/SportsDB Mock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06B8BDB7188304CB008D917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SportsDB Mock.app/SportsDB Mock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsDB Mock/SportsDB Mock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SportsDB MockTests/SportsDB MockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06B8BDB8188304CB008D917E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SportsDB Mock.app/SportsDB Mock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsDB Mock/SportsDB Mock-Prefix.pch";
+				INFOPLIST_FILE = "SportsDB MockTests/SportsDB MockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B8BD82188304CA008D917E /* Build configuration list for PBXProject "SportsDB Mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B8BDB1188304CA008D917E /* Debug */,
+				06B8BDB2188304CA008D917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06B8BDB3188304CB008D917E /* Build configuration list for PBXNativeTarget "SportsDB Mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B8BDB4188304CB008D917E /* Debug */,
+				06B8BDB5188304CB008D917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06B8BDB6188304CB008D917E /* Build configuration list for PBXNativeTarget "SportsDB MockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B8BDB7188304CB008D917E /* Debug */,
+				06B8BDB8188304CB008D917E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06B8BD7F188304CA008D917E /* Project object */;
+}
