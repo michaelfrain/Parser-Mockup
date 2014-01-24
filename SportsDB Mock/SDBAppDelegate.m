@@ -8,6 +8,7 @@
 
 #import "SDBAppDelegate.h"
 #import "SDBParsedObjects.h"
+#import "SDBViewController.h"
 
 @implementation SDBAppDelegate
 
@@ -15,12 +16,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    SDBViewController *mainViewController = [[SDBViewController alloc] init];
+    
+    
+    [self.window setRootViewController:mainViewController];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    SDBParsedObjects *parsedObject = [[SDBParsedObjects alloc] init];
-    NSArray *parsedArray = [[NSArray alloc] init];
-    parsedArray = [parsedObject csvParseObjects];
+    
     return YES;
 }
 

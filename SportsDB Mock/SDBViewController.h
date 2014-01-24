@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CHCSVParser.h"
+#import "SDBParsedObjects.h"
 
 @interface SDBViewController : UIViewController
+
+@property (nonatomic, strong) UITextField *number;
+@property (nonatomic, strong) UIButton *button;
+@property (nonatomic, strong) UILabel *label;
+
+@property (nonatomic, strong) SDBParsedObjects *parsedObject;
+@property (nonatomic, strong) NSArray *parsedArray;
 
 @end

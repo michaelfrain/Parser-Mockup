@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066E5CE618923E7C009AD7BA /* SDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E5CE518923E7C009AD7BA /* SDBViewController.m */; };
 		06B8BD8B188304CA008D917E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8A188304CA008D917E /* Foundation.framework */; };
 		06B8BD8D188304CA008D917E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8C188304CA008D917E /* CoreGraphics.framework */; };
 		06B8BD8F188304CA008D917E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8BD8E188304CA008D917E /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066E5CE418923E7C009AD7BA /* SDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBViewController.h; sourceTree = "<group>"; };
+		066E5CE518923E7C009AD7BA /* SDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBViewController.m; sourceTree = "<group>"; };
 		06B8BD87188304CA008D917E /* SportsDB Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SportsDB Mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B8BD8A188304CA008D917E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		06B8BD8C188304CA008D917E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				06B8BDC51883067C008D917E /* SDBParsedObjects.h */,
 				06B8BDC61883067C008D917E /* SDBParsedObjects.m */,
 				06B8BDC8188306D9008D917E /* nfl_players a-z.csv */,
+				066E5CE418923E7C009AD7BA /* SDBViewController.h */,
+				066E5CE518923E7C009AD7BA /* SDBViewController.m */,
 				06B8BD9C188304CA008D917E /* Images.xcassets */,
 				06B8BD91188304CA008D917E /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B8BD9B188304CA008D917E /* SDBAppDelegate.m in Sources */,
+				066E5CE618923E7C009AD7BA /* SDBViewController.m in Sources */,
 				06B8BD97188304CA008D917E /* main.m in Sources */,
 				06B8BDC4188305B5008D917E /* CHCSVParser.m in Sources */,
 				06B8BDC71883067C008D917E /* SDBParsedObjects.m in Sources */,
@@ -460,6 +466,7 @@
 				06B8BDB5188304CB008D917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06B8BDB6188304CB008D917E /* Build configuration list for PBXNativeTarget "SportsDB MockTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				06B8BDB8188304CB008D917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
